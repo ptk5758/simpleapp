@@ -17,7 +17,8 @@ const style = StyleSheet.create({
   mainHeader : {
       padding: 10,
       marginLeft: 13,
-      marginRight: 13
+      marginRight: 13,
+      flex: 1
   },
   headerFont: {
       fontSize: 20,

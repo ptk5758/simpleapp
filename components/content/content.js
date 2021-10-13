@@ -9,7 +9,19 @@ class Content extends Component {
           <Item
             date="21년 10월 13일 14시 08분"
             content="무언가무언가를함"
-          />          
+          />
+          <Item
+            date="21년 10월 12일 14시 08분"
+            content="어떤거를했음"
+          />
+          <Item
+            date="21년 10월 11일 14시 08분"
+            content="!!@#$%$%"
+          />
+          <Item
+            date="21년 10월 10일 14시 08분"
+            content="null"
+          />
       </View>
     );
   }
@@ -44,7 +56,8 @@ class Item extends Component {
 
 const style = StyleSheet.create({
   mainContent : {      
-      margin: 13
+      margin: 13,
+      flex: 9
   },
   contetnList: {
       backgroundColor: "#eeeeee",
@@ -61,8 +74,7 @@ const style = StyleSheet.create({
   contentListText: {
       flex: 4,      
       padding: 5,
-      justifyContent: 'space-between',
-      backgroundColor: 'red'
+      justifyContent: 'space-between'
   },
   thumbImage: {
       width: 98,
